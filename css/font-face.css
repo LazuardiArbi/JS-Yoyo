@@ -1,0 +1,64 @@
+/*Lato*/
+@font-face{
+	font-family: 'Lato-Regular';
+	src: url('../assets/fonts/Lato/Lato-Regular.ttf');
+	src: url('../assets/fonts/Lato/Lato-Regular.ttf') format('ttf'),
+		 url('../assets/fonts/Lato/Lato-Regular.ttf') format('truetype'),;
+}
+
+/*Montserrat*/
+@font-face{
+	font-family: 'Montserrat-Regular';
+	src: url('../assets/fonts/Montserrat/Montserrat-Regular.ttf');
+	src: url('../assets/fonts/Montserrat/Montserrat-Regular.ttf') format('ttf'),
+		 url('../assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype'),;
+}
+
+@font-face{
+	font-family: 'Montserrat-Bold';
+	src: url('../assets/fonts/Montserrat/Montserrat-Bold.ttf');
+	src: url('../assets/fonts/Montserrat/Montserrat-Bold.ttf') format('ttf'),
+		 url('../assets/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype'),;
+}
+
+/*Oswald*/
+@font-face{
+	font-family: 'Oswald-Regular';
+	src: url('../assets/fonts/Oswald/Oswald-Regular.ttf');
+	src: url('../assets/fonts/Oswald/Oswald-Regular.ttf') format('ttf'),
+		 url('../assets/fonts/Oswald/Oswald-Regular.ttf') format('truetype'),;
+}
+
+@font-face{
+	font-family: 'Oswald-Bold';
+	src: url('../assets/fonts/Oswald/Oswald-Bold.ttf');
+	src: url('../assets/fonts/Oswald/Oswald-Bold.ttf') format('ttf'),
+		 url('../assets/fonts/Oswald/Oswald-Bold.ttf') format('truetype'),;
+}
+
+/* TEXT ALIGN */
+.txt-center{text-align: center;}
+.txt-left{text-align: left;}
+.txt-right{text-align: right;}
+
+/* TEXT COLOR */
+.color-txt-white{color: white !important;}
+.color-txt-grey{color: #b8b8b8 !important;}
+.color-txt-green-1{color: #3B6F6D !important;}
+.color-txt-green-2{color: #4D7071 !important;} 
+.color-txt-black{color: #000 !important;}
+
+
+/* BACKGROUND COLOR */
+.color-bg-white{background: white !important;}
+.color-bg-grey{background: #b8b8b8 !important;}
+.color-bg-green-1{background: #3B6F6D !important;}
+.color-bg-green-2{background: #4D7071 !important;}
+.color-bg-green-black{background: black !important;}
+
+/* LINE COLOR */
+.color-line-white{border-color: white !important;}
+.color-line-grey{border-color: #b8b8b8 !important;}
+.color-line-green-1{border-color: #3B6F6D !important;}
+.color-line-green-2{border-color: #4D7071 !important;}
+.color-line-green-black{border-color: black !important;}

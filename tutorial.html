@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>JS - Yoyo | Homepage</title>
+	<!-- favicon -->
+	<link rel="icon" type="image/png" href="assets/logo/favicon.png">
+
+	<link rel="stylesheet" type="text/css" href="css/font-face.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media-queries.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+
+<body>
+
+	<!-- Header -->
+	<div class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-5 logo-head">
+					<a href="index.html" id="brand-logo">
+						<img src="assets/logo/logo.png" alt="logo">
+					</a>
+					<div class="sub-nav-icon">
+						<a href="aboutus.html">About Us</a>
+					</div>
+				</div>
+			<!-- Main Navigation Bar -->
+				<div class="col-md-5 main-nav">
+					<a href="login.html">Login</a>
+					<a href="tutorial.html" class="active">Tutorial</a>
+					<div class="sub-nav-dropdown">
+						<a href="javascript:;" class="btn-dropdown">Catalog</a>
+						<div class="dropdown-item">
+							<a href="catalog_basic.html">Basic</a>
+							<a href="catalog_prof.html">Professional</a>	
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+			<!-- ONLY SHOWN WHEN BELOW 500PX -->
+			<div class="row">
+				<div class="max500">
+					<a href="aboutus.html">About Us</a>
+					<a href="tutorial.html" class="active">Tutorial</a>
+					<a href="login.html">Login</a>
+					<div class="sub-nav-dropdown">
+						<a href="javascript:;" class="btn-dropdown">Catalog</a>
+						<div class="dropdown-item">
+							<a href="catalog_basic.html">Basic</a>
+							<a href="catalog_prof.html">Proffesional</a>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Content Body -->
+	<div class="container content">
+		<h1>TUTORIAL</h1>
+		<!-- CONTACT DETAIL -->
+		<div class="row txt-center">
+			<!-- TUTORIAL WITH SENTENCE -->
+			<div class="col-sm-12 col-md-6 right-bar txt-left">
+				<h3 class="txt-center">How to Play Yo-yo</h3>
+				<div class="container">
+					<p>1. Hold the yo-yo in your hand, palm up.</p>
+					<p>2. Throw the yo-yo forward and downward, opening with your hand open wide and facing your palm outward.</p>
+					<p>3. Turn your hand over so thath your palm is facing the floor and sharply tug the string.</p>
+					<p>4. Catch the yo-yo in the palm of your hand, turn it over and repeat</p>
+				</div>
+				
+			</div>
+			<!-- TUTORIAL WITH IMAGE -->
+			<div class=" col-sm-12 col-md-6">
+				<!-- Slideshow -->
+				<div class="slideshow-mini">
+					<div class="slide-img">
+						<img src="assets/images/step1.png">
+					</div>
+					<div class="slide-img">
+						<img src="assets/images/step2.png">
+					</div>
+					<div class="slide-img">
+						<img src="assets/images/step3.png">
+					</div>
+					<div class="slide-img">
+						<img src="assets/images/step4.png">
+					</div>
+				</div>
+				<!-- dots -->
+				<div class="txt-center sqr-index">
+					<span class="sqr active" id="dot_1"></span>
+					<span class="sqr" id="dot_2"></span>
+					<span class="sqr" id="dot_3"></span>
+					<span class="sqr" id="dot_4"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<span class="color-txt-grey">© 2018, JS Yo-yo. | www.js-yoyo.com</span>
+				</div>
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<div class="socmed-icon">
+						<a href="http://twitter.com">
+							<img src="assets/icon/twitter.png" alt="">
+						</a>
+						<a href="http://instagram.com">
+							<img src="assets/icon/instagram.png" alt="">
+						</a>
+						<a href="http://facebook.com">
+							<img src="assets/icon/facebook.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<!-- Insert JQuery -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/slideshow-js.js"></script>
+
+<!-- Insert Javascript -->
+</html>

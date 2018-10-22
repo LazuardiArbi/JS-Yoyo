@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>JS - Yoyo | Homepage</title>
+	<!-- favicon -->
+	<link rel="icon" type="image/png" href="assets/logo/favicon.png">
+
+	<link rel="stylesheet" type="text/css" href="css/font-face.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media-queries.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+
+<body>
+
+	<!-- Header -->
+	<div class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-5 logo-head">
+					<a href="index.html" id="brand-logo">
+						<img src="assets/logo/logo.png" alt="logo">
+					</a>
+					<div class="sub-nav-icon">
+						<a href="aboutus.html" class="active">About Us</a>
+					</div>
+				</div>
+			<!-- Main Navigation Bar -->
+				<div class="col-md-5 main-nav">
+					<a href="login.html">Login</a>
+					<a href="tutorial.html">Tutorial</a>
+					<div class="sub-nav-dropdown">
+						<a href="javascript:;" class="btn-dropdown">Catalog</a>
+						<div class="dropdown-item">
+							<a href="catalog_basic.html">Basic</a>
+							<a href="catalog_prof.html">Professional</a>	
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+			<!-- ONLY SHOWN WHEN BELOW 500PX -->
+			<div class="row">
+				<div class="max500">
+					<a href="aboutus.html" class="active">About Us</a>
+					<a href="tutorial.html">Tutorial</a>
+					<a href="login.html">Login</a>
+					<div class="sub-nav-dropdown">
+						<a href="javascript:;" class="btn-dropdown">Catalog</a>
+						<div class="dropdown-item">
+							<a href="catalog_basic.html">Basic</a>
+							<a href="catalog_prof.html">Proffesional</a>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Content Body -->
+	<div class="container content">
+		<h1>ABOUT US</h1>
+		<!-- CONTACT DETAIL -->
+		<div class="row txt-center">
+			<!-- CONTACT -->
+			<div class="col-sm-12 col-md-4 right-bar txt-left">
+				<h3 class="txt-center">Contact</h3>
+				<div class="contact-item">
+					<img src="assets/icon/telp.png" alt="" id="instagram">
+					<label for="instagram">+62 812121212</label>
+				</div>
+				<div class="contact-item">
+					<img src="assets/icon/email.png" alt="" id="instagram">
+					<label for="instagram">jsyoyo@jsy.com</label>
+				</div>
+				<div class="contact-item">
+					<img src="assets/icon/facebook.png" alt="" id="instagram">
+					<label for="instagram">JS Yoyo Official Store</label>
+				</div>
+			</div>
+			<!-- JS YOYO INFORMATION -->
+			<div class=" col-sm-12 col-md-4 right-bar">
+				<h3 class="txt-center">History</h3>
+				<p class="txt-left">
+					Js yoyo is a yoyo store that was established in 2007. And was founded by two young men who originally sold yo-yo because they love yo-yo toys.
+					<br>
+					<br>
+					Js yoyo initially sells yoyo not through the store. but with the proliferation of technology, js yoyo has a store in 2014 and finally opened the catalog website to show yoyo collection owned by js yoyo.
+					<br>
+					<br>
+					This website is dedicated to show the collection from basic to professional yoyo, and provide tutorial how to play a good yoyo.
+				</p>
+			</div>
+			<!-- JS YOYO LOGO -->
+			<div class="col-sm-12 col-md-4">
+				<img src="assets/logo/logo2.png" alt="logo" width="100%">
+			</div>
+		</div>
+		<div class="row">
+			<!-- JS YOYO LOCATION -->
+			<h3 class="txt-center">Location</h3>
+			<div class="col-md-4 big-only"></div>
+			<div class="col-sm-12 col-md-3">
+				<div class="img-zoom">
+					<img src="assets/images/maps.jpg" alt="Location" id="location-img">
+				</div> 
+			</div>
+			<div class="col-sm-12 col-md-4">
+				Jalan Anggrek Cakra No.1A, RT.4/RW.6, Kebon Jeruk, RT.1/RW.9, Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11540
+			</div>
+		</div>
+		<hr class="color-line-green-1 txt-center" width="90%">
+		<div class="row">
+			<div class="col-sm-12 col-md-12">
+				<form class="form-green" id="login-form" method="POST">
+					<div class="form-title">
+						<h1>SUBSCRIPTION</h1>
+					</div>
+					<div class="form-body">
+						<input type="text" name="email" placeholder="Email" id="email">
+						<span class="error-msg email-input"></span>
+						<div class="row">
+							<div class="col-md-8" id="mini-text">
+							</div>
+							<div class="col-md-4 txt-right">
+								<button type="submit" class="btn btn-line-green">Subscribe</button>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<span class="color-txt-grey">© 2018, JS Yo-yo. | www.js-yoyo.com</span>
+				</div>
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<div class="socmed-icon">
+						<a href="http://twitter.com">
+							<img src="assets/icon/twitter.png" alt="">
+						</a>
+						<a href="http://instagram.com">
+							<img src="assets/icon/instagram.png" alt="">
+						</a>
+						<a href="http://facebook.com">
+							<img src="assets/icon/facebook.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<!-- Insert JQuery -->
+<script src="js/jquery-3.3.1.min.js"></script>
+
+<!-- Insert Javascript -->
+</html>

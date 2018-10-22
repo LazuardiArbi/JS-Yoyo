@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>JS - Yoyo | Homepage</title>
+	<!-- favicon -->
+	<link rel="icon" type="image/png" href="assets/logo/favicon.png">
+
+	<link rel="stylesheet" type="text/css" href="css/font-face.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media-queries.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+
+<body>
+
+	<!-- Header -->
+	<div class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-5 logo-head">
+					<a href="index.html" id="brand-logo">
+						<img src="assets/logo/logo.png" alt="logo">
+					</a>
+					<div class="sub-nav-icon">
+						<a href="aboutus.html">About Us</a>
+					</div>
+				</div>
+				<!-- Main Navigation Bar -->
+				<div class="col-md-5 main-nav">
+					<a href="login.html" class="active">Login</a>
+					<a href="tutorial.html">Tutorial</a>
+					<div class="sub-nav-dropdown">
+						<a href="javascript:;" class="btn-dropdown">Catalog</a>
+						<div class="dropdown-item">
+							<a href="catalog_basic.html">Basic</a>
+							<a href="catalog_prof.html">Professional</a>	
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+			<!-- ONLY SHOWN WHEN BELOW 500PX -->
+			<div class="row">
+				<div class="max500">
+					<a href="aboutus.html" class="active">About Us</a>
+					<a href="tutorial.html">Tutorial</a>
+					<a href="login.html">Login</a>
+					<div class="sub-nav-dropdown">
+						<a href="javascript:;" class="btn-dropdown">Catalog</a>
+						<div class="dropdown-item">
+							<a href="catalog_basic.html">Basic</a>
+							<a href="catalog_prof.html">Proffesional</a>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Content Body -->
+	<div class="container-full-width content">
+		<div class="row">
+			<div class="col-md-7 full-height big-only padding-0" id="big-bg">
+				<img class="trans60" src="assets/images/basic2.jpg">
+			</div>
+			<div class="col-sm-12 col-md-5 color-bg-green-1 full-height">
+				<form class="form-white" id="regist-form" method="POST">
+					<div class="form-title">
+						<h1>REGISTER</h1>
+					</div>
+					<div class="form-body">
+						<input type="text" name="name" placeholder="Name" id="name">
+						<span class="error-msg name-input"></span>
+						<input type="text" name="email" placeholder="Email" id="email">
+						<span class="error-msg email-input"></span>
+						<input type="password" name="password" placeholder="Password" id="pass">
+						<span class="error-msg pass-input"></span>
+						<div class="label-group">
+							<label for="">Gender :</label>
+							<label for="gen-male" class="control-radio">
+								<input type="radio" name="gender" id="gen-male">Male
+							</label>
+							<label for="gen-female" class="control-radio">
+								<input type="radio" name="gender" id="gen-female">Female
+							</label>
+						</div>
+						<span class="error-msg gender-input"></span>
+
+						<!-- Address -->
+						<textarea name="address" id="address" rows="5" placeholder="Address"></textarea>
+						<span class="error-msg addr-input"></span>
+						<div class="label-group">
+							<label for="city">City :</label>
+							<select name="city" id="city">
+								<option value="">Choose City</option>
+								<option value="Jakarta">Jakarta</option>
+								<option value="Bandung">Bandung</option>
+								<option value="Tangerang">Tangerang</option>
+							</select>
+						</div>
+						<span class="error-msg city-input"></span>
+						
+						<div class="row">
+							<div class="col-md-8" id="mini-text">
+								Already have an account? <a href="login.html">Login Here!</a>
+							</div>
+							<div class="col-md-4 txt-right">
+								<button type="submit" class="btn btn-line-white">Submit</button>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<span class="color-txt-grey">© 2018, JS Yo-yo. | www.js-yoyo.com</span>
+				</div>
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<div class="socmed-icon">
+						<a href="http://twitter.com">
+							<img src="assets/icon/twitter.png" alt="">
+						</a>
+						<a href="http://instagram.com">
+							<img src="assets/icon/instagram.png" alt="">
+						</a>
+						<a href="http://facebook.com">
+							<img src="assets/icon/facebook.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<!-- Insert JQuery -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/form-validation.js"></script>
+
+<!-- Insert Javascript -->
+</html>
